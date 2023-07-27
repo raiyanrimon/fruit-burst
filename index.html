@@ -36,7 +36,27 @@
 </head>
 <body class="font-lato"> 
     <header class="container mx-auto">
-  
+      <div class="navbar lg:hidden bg-base-100">
+        <div class="flex-1">
+          <a class="btn btn-ghost normal-case text-xl">Fruit Burst</a>
+        </div>
+        <div class="dropdown dropdown-end">
+          <label tabindex="0" class="btn btn-ghost lg:hidden">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+          </label>
+          <ul tabindex="0" class="menu dropdown-content mt-3 z-[1] shadow bg-base-100 rounded-box">
+            <li><a href="">Home</a></li>
+                <li><a href="">About Us</a></li>
+                <li><a href="">Shop</a></li>
+                <li><a href="">All Fruits</a></li>
+                <li><input type="text" placeholder="Search here" class="input input-bordered w-full max-w-xs rounded-full" /></li>
+                <li><button class="btn btn-ghost btn-circle">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" /></svg>
+              </button></li>
+          </ul>
+        </div>
+        </div>
+      </div>
         <div class="navbar hidden lg:flex bg-red-400 rounded-full mt-5">
             <div class="navbar-start">
                 <ul class="flex pl-5 gap-10 text-white font-normal text-xl :px-10">
@@ -410,18 +430,21 @@
                 <div class="flex justify-center"><img class="border-8 rounded-full w-20" src="./images/group 1.svg" alt=""></div>
                 <div class="lg:text-left">
                   <h3 class="text-2xl font-extrabold ">Dedicated Team</h3>
+                  <div class="flex justify-center lg:justify-start"><div class="divider w-36"></div></div>
                   <p>Professional employees are there for you to pick the most amazing and fresh fruits.</p>
                 </div>
               </div><div class="lg:flex text-center space-x-5 items-center">
                 <div class="flex justify-center"><img class="border-8 rounded-full w-20" src="./images/love 1.svg" alt=""></div>
                 <div class="lg:text-left">
                   <h3 class="text-2xl font-extrabold">Fresh is Best</h3>
+                  <div class="flex justify-center lg:justify-start"><div class="divider w-36"></div></div>
                   <p>Professional employees are there for you to pick the most amazing and fresh fruits.</p>
                 </div>
               </div><div class="lg:flex text-center space-x-5 items-center">
                 <div class="flex justify-center"><img class="border-8 rounded-full w-20" src="./images/gift-box 1.svg" alt=""></div>
                 <div class="lg:text-left">
                   <h3 class="text-2xl font-extrabold">Gift Certificates</h3>
+                  <div class="flex justify-center lg:justify-start"><div class="divider w-36"></div></div>
                   <p>Professional employees are there for you to pick the most amazing and fresh fruits.</p>
                 </div>
               </div>
@@ -431,17 +454,20 @@
               <div class="flex flex-col-reverse lg:flex-row space-x-5 items-center text-center">
                 <div class="lg:text-right">
                   <h3 class="text-2xl font-extrabold">Integrated Supplier</h3>
+                  <div class="flex justify-center lg:justify-end"><div class="divider w-36"></div></div>
                   <p>Professional employees are there for you to pick the most amazing and fresh fruits.</p>
                 </div>
                 <div class="flex justify-center"><img class="border-8 rounded-full w-20" src="./images/fruit 1.svg" alt=""></div>
               </div><div class="flex flex-col-reverse lg:flex-row space-x-5 items-center text-center">
                 <div class="lg:text-right">
                   <h3 class="text-2xl font-extrabold">Sustainable Practice</h3>
+                  <div class="flex justify-center lg:justify-end"><div class="divider w-36"></div></div>
                   <p>Professional employees are there for you to pick the most amazing and fresh fruits.</p>
                 </div><div class="flex justify-center"><img class="border-8 rounded-full w-20" src="./images/ice-cream 1.svg" alt=""></div>
               </div><div class="flex flex-col-reverse lg:flex-row space-x-5 items-center text-center">
                 <div class="lg:text-right">
                   <h3 class="text-2xl font-extrabold ">The Benefits Only</h3>
+                  <div class="flex justify-center lg:justify-end"><div class="divider w-36"></div></div>
                   <p>Professional employees are there for you to pick the most amazing and fresh fruits.</p>
                 </div><div class="flex justify-center"><img class="border-8 rounded-full w-20" src="./images/like 1.svg" alt=""></div>
               </div>
